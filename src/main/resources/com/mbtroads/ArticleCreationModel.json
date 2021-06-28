@@ -1,0 +1,156 @@
+{
+  "models": [
+    {
+      "edges": [
+        {
+          "id": "fe684ee0-d7ea-11eb-9e04-cb7dec14ad8c",
+          "name": "e_OpenApp",
+          "sourceVertexId": "8f4b7be0-d7ea-11eb-9e04-cb7dec14ad8c",
+          "targetVertexId": "906a5960-d7ea-11eb-9e04-cb7dec14ad8c"
+        },
+        {
+          "id": "13959a70-d7eb-11eb-9e04-cb7dec14ad8c",
+          "name": "e_GoToLogIn",
+          "sourceVertexId": "906a5960-d7ea-11eb-9e04-cb7dec14ad8c",
+          "targetVertexId": "92d53ee0-d7ea-11eb-9e04-cb7dec14ad8c"
+        },
+        {
+          "id": "2802f160-d7eb-11eb-9e04-cb7dec14ad8c",
+          "name": "e_LoginWrongCred",
+          "sourceVertexId": "92d53ee0-d7ea-11eb-9e04-cb7dec14ad8c",
+          "targetVertexId": "96678d60-d7ea-11eb-9e04-cb7dec14ad8c"
+        },
+        {
+          "id": "2ae0bcf0-d7eb-11eb-9e04-cb7dec14ad8c",
+          "name": "e_LoginWithValidCred",
+          "sourceVertexId": "92d53ee0-d7ea-11eb-9e04-cb7dec14ad8c",
+          "targetVertexId": "941b2c60-d7ea-11eb-9e04-cb7dec14ad8c"
+        },
+        {
+          "id": "2f5fdc70-d7eb-11eb-9e04-cb7dec14ad8c",
+          "name": "e_GoToHomePage",
+          "sourceVertexId": "92d53ee0-d7ea-11eb-9e04-cb7dec14ad8c",
+          "targetVertexId": "906a5960-d7ea-11eb-9e04-cb7dec14ad8c"
+        },
+        {
+          "id": "38a9ca70-d7eb-11eb-9e04-cb7dec14ad8c",
+          "name": "e_GoToAddArticlePage",
+          "sourceVertexId": "941b2c60-d7ea-11eb-9e04-cb7dec14ad8c",
+          "targetVertexId": "956d4ee0-d7ea-11eb-9e04-cb7dec14ad8c"
+        },
+        {
+          "id": "3c709670-d7eb-11eb-9e04-cb7dec14ad8c",
+          "name": "e_GoToSignedInHomePage",
+          "sourceVertexId": "956d4ee0-d7ea-11eb-9e04-cb7dec14ad8c",
+          "targetVertexId": "941b2c60-d7ea-11eb-9e04-cb7dec14ad8c"
+        },
+        {
+          "id": "418984f0-d7eb-11eb-9e04-cb7dec14ad8c",
+          "name": "e_ArticleAddtionWithoutData",
+          "sourceVertexId": "956d4ee0-d7ea-11eb-9e04-cb7dec14ad8c",
+          "targetVertexId": "d98fef60-d7ea-11eb-9e04-cb7dec14ad8c"
+        },
+        {
+          "id": "46afe0f0-d7eb-11eb-9e04-cb7dec14ad8c",
+          "name": "e_GoToSignedInHomePage",
+          "sourceVertexId": "d98fef60-d7ea-11eb-9e04-cb7dec14ad8c",
+          "targetVertexId": "941b2c60-d7ea-11eb-9e04-cb7dec14ad8c"
+        },
+        {
+          "id": "6ea90870-d7eb-11eb-9e04-cb7dec14ad8c",
+          "name": "e_GoToLogin",
+          "sourceVertexId": "96678d60-d7ea-11eb-9e04-cb7dec14ad8c",
+          "targetVertexId": "92d53ee0-d7ea-11eb-9e04-cb7dec14ad8c"
+        },
+        {
+          "id": "79353a70-d7eb-11eb-9e04-cb7dec14ad8c",
+          "name": "e_GoToHomePage",
+          "sourceVertexId": "96678d60-d7ea-11eb-9e04-cb7dec14ad8c",
+          "targetVertexId": "906a5960-d7ea-11eb-9e04-cb7dec14ad8c"
+        },
+        {
+          "id": "c937ee40-d819-11eb-abb5-f1581a91fe7a",
+          "name": "e_Logout",
+          "sourceVertexId": "956d4ee0-d7ea-11eb-9e04-cb7dec14ad8c",
+          "targetVertexId": "92d53ee0-d7ea-11eb-9e04-cb7dec14ad8c"
+        },
+        {
+          "id": "cd0ac830-d819-11eb-abb5-f1581a91fe7a",
+          "name": "e_Logout",
+          "sourceVertexId": "941b2c60-d7ea-11eb-9e04-cb7dec14ad8c",
+          "targetVertexId": "92d53ee0-d7ea-11eb-9e04-cb7dec14ad8c"
+        },
+        {
+          "id": "daadfe30-d819-11eb-abb5-f1581a91fe7a",
+          "name": "e_AddNewArticle",
+          "sourceVertexId": "956d4ee0-d7ea-11eb-9e04-cb7dec14ad8c",
+          "targetVertexId": "941b2c60-d7ea-11eb-9e04-cb7dec14ad8c"
+        }
+      ],
+      "generator": "random(edge_coverage(100))",
+      "id": "8c5434e0-d7ea-11eb-9e04-cb7dec14ad8c",
+      "name": "ArticleCreationModel",
+      "startElementId": "8f4b7be0-d7ea-11eb-9e04-cb7dec14ad8c",
+      "vertices": [
+        {
+          "id": "8f4b7be0-d7ea-11eb-9e04-cb7dec14ad8c",
+          "name": "v_Start",
+          "properties": {
+            "x": 561,
+            "y": 71
+          }
+        },
+        {
+          "id": "906a5960-d7ea-11eb-9e04-cb7dec14ad8c",
+          "name": "v_HomePage",
+          "properties": {
+            "x": 560,
+            "y": 228
+          }
+        },
+        {
+          "id": "92d53ee0-d7ea-11eb-9e04-cb7dec14ad8c",
+          "name": "v_LogInPage",
+          "properties": {
+            "x": 873,
+            "y": 512
+          }
+        },
+        {
+          "id": "941b2c60-d7ea-11eb-9e04-cb7dec14ad8c",
+          "name": "v_SignedInHome",
+          "properties": {
+            "x": 219,
+            "y": 351
+          }
+        },
+        {
+          "id": "956d4ee0-d7ea-11eb-9e04-cb7dec14ad8c",
+          "name": "v_AddArticle",
+          "properties": {
+            "x": 335,
+            "y": 768
+          }
+        },
+        {
+          "id": "96678d60-d7ea-11eb-9e04-cb7dec14ad8c",
+          "name": "v_FailedLogin",
+          "properties": {
+            "x": 1002,
+            "y": 250
+          }
+        },
+        {
+          "id": "d98fef60-d7ea-11eb-9e04-cb7dec14ad8c",
+          "name": "v_FailedArticleAddition",
+          "properties": {
+            "x": 1088,
+            "y": 686
+          }
+        }
+      ]
+    }
+  ],
+  "selectedModelIndex": 0,
+  "selectedElementId": "92d53ee0-d7ea-11eb-9e04-cb7dec14ad8c"
+}
