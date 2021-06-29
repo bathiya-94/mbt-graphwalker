@@ -75,6 +75,9 @@
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.2.3" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.2.3" level="project" />
     <orderEntry type="library" name="Maven: junit:junit:4.13.2" level="project" />
+    <orderEntry type="library" name="Maven: org.graphwalker:graphwalker-websocket:4.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.graphwalker:graphwalker-model-checker:4.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.java-websocket:Java-WebSocket:1.5.1" level="project" />
     <orderEntry type="library" name="Maven: org.junit.jupiter:junit-jupiter-api:5.8.0-M1" level="project" />
     <orderEntry type="library" name="Maven: org.apiguardian:apiguardian-api:1.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />
